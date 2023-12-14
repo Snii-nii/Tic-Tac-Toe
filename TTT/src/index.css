@@ -6,6 +6,7 @@ body {
   font-family: sans-serif;
   margin: 20px;
   padding: 0;
+  background-color: #444444;
 }
 
 h1 {
@@ -54,21 +55,26 @@ body {
   font-family: sans-serif;
   margin: 20px;
   padding: 0;
+  color: #ffffff;
+  font-size: 2em;
 }
 
 .square {
-  background: #fff;
-  border: 1px solid #999;
+  background: #f0f0f0;
+  border: 2px solid #000000;
+  border-radius: 7px;
+  box-shadow: 0 0 10px #a5a5a5;
   float: left;
-  font-size: 24px;
+  font-size: 50px;
   font-weight: bold;
-  line-height: 34px;
-  height: 34px;
+  line-height: 100px;
+  height: 100px;
   margin-right: -1px;
   margin-top: -1px;
   padding: 0;
   text-align: center;
-  width: 34px;
+  width: 100px;
+  cursor: pointer;
 }
 
 .board-row:after {
