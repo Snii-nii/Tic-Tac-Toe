@@ -1,4 +1,5 @@
 import { useState } from "react";
+import propTypes from "prop-types"
 
 
 function Square({value, onSquareClick}){
@@ -6,6 +7,11 @@ function Square({value, onSquareClick}){
   return (<button className="square" onClick={onSquareClick}>
     {value}</button>);
 }
+
+Square.propTypes = {
+  value: propTypes.string,
+  onSquareClick: propTypes.func.isRequired,
+};
 
 function Board() {
 
