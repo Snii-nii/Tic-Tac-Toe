@@ -1,12 +1,10 @@
-
-import './App.css'
-
+import Board from "./TickTackToe"
 function App() {
 
 
   return (
     <>
-
+    <Board/>
     </>
   )
 }
