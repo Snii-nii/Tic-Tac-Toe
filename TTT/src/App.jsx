@@ -1,10 +1,10 @@
-import Board from "./TickTackToe"
+import Game from "./TickTackToe"
 function App() {
 
 
   return (
     <>
-    <Board/>
+    <Game/>
     </>
   )
 }
